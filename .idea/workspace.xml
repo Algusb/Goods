@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe8de698-d4ff-4e84-badc-cec35c2bb46b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/ProductManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/Smartphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ProductManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/NotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ProductManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,14 +39,31 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_directory_selection": "/Users/aleksejgusev/Desktop/Projects/Study/java/Goods/src/main/java"
+    "last_directory_selection": "/Users/aleksejgusev/Desktop/Projects/Study/java/Goods/src/main/java/ru/netology"
   }
 }]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn clean test" />
       <command value="mvn clean verify" />
+      <command value="mvn clean test" />
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ProductManagerTest.testShouldNotAddExistId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Goods" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductManagerTest" />
+      <option name="METHOD_NAME" value="testShouldNotAddExistId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductManagerTest.testShouldNotAddExistId" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
