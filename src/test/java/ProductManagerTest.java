@@ -88,5 +88,26 @@ public class ProductManagerTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
-    
+
+    @Test
+    public void testRemoveNotExistId() {
+        Book book1 = new Book(11, "Winter Bell", 500, "Adam");
+        Smartphone smartphone1 = new Smartphone(222, "Samsung", 10000, "Korea");
+        Book book2 = new Book(33, "Spring", 800, "Ben");
+        Smartphone smartphone2 = new Smartphone(444, "Apple", 15000, "USA");
+        Book book3 = new Book(55, "Bell of Summer", 1000, "Courtney");
+
+        ProductRepository repo = new ProductRepository();
+        ProductManager manager = new ProductManager(repo);
+        manager.add(book1);
+        manager.add(smartphone1);
+        manager.add(book2);
+        manager.add(smartphone2);
+        manager.add(book3);
+
+        Assertions.assertThrows(NotFoundException.class, () -> {
+            repo.removeById(100);
+        });
+    }
+
 }
